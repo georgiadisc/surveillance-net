@@ -19,7 +19,7 @@ public class SMS extends Communication {
      * @return boolean
      */
     public boolean isMalicious() {
-        final String[] maliciousWords = { "Bomb", "Attack", "Explosives", "Gun" };
+        final String[] maliciousWords = {"Bomb", "Attack", "Explosives", "Gun"};
         for (String word : maliciousWords) {
             if (content.contains(word)) {
                 return true;
@@ -30,12 +30,9 @@ public class SMS extends Communication {
 
     @Override
     public String toString() {
-        return String.join(
-                "\n",
-                "This SMS has the following info",
+        return String.join("\n", "This SMS has the following info",
                 String.format("Between %s --- %s", firstNumber, secondNumber),
-                String.format("on %d/%d/%d", year, month, day),
-                String.format("Text: %s", content));
+                String.format("on %d/%d/%d", year, month, day), String.format("Text: %s", content));
     }
 
 }

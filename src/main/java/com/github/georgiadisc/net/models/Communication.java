@@ -27,7 +27,7 @@ public abstract class Communication {
     /**
      * Checks if the message or phone call was made between these two numbers.
      *
-     * @param firstNumber  The first number
+     * @param firstNumber The first number
      * @param secondNumber The second number
      */
     public boolean consistsOf(String firstNumber, String secondNumber) {

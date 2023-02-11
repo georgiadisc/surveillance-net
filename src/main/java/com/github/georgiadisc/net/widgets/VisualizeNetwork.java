@@ -10,34 +10,34 @@ import java.awt.event.ActionListener;
 
 public final class VisualizeNetwork extends Widget {
 
-	private final JButton button;
+    private final JButton button;
 
-	/**
-	 * A widget showing a button for visualizing the suspects' network.
-	 */
-	public VisualizeNetwork() {
-		this.button = new JButton("Visualize Network");
-	}
+    /**
+     * A widget showing a button for visualizing the suspects' network.
+     */
+    public VisualizeNetwork() {
+        this.button = new JButton("Visualize Network");
+    }
 
-	@Override
-	public void build() {
-		setUpdateFrequency(Frequency.NEVER);
-		button.addActionListener(new ButtonListener());
-		add(button);
-	}
+    @Override
+    public void build() {
+        setUpdateFrequency(Frequency.NEVER);
+        button.addActionListener(new ButtonListener());
+        add(button);
+    }
 
-	@Override
-	public void update() {
-		throw new UnsupportedOperationException();
-	}
+    @Override
+    public void update() {
+        throw new UnsupportedOperationException();
+    }
 
-	private static class ButtonListener implements ActionListener {
+    private static class ButtonListener implements ActionListener {
 
-		@Override
-		public void actionPerformed(ActionEvent e) {
-			Routes.pushPage(Pages.NETWORK);
-		}
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            Routes.pushPage(Pages.NETWORK);
+        }
 
-	}
+    }
 
 }

@@ -13,8 +13,7 @@ public final class SuspectsFromCountry extends Widget {
     private final JScrollPane pane;
 
     /**
-     * A widget showing the suspects coming from the current {@link Suspect}'s home
-     * country.
+     * A widget showing the suspects coming from the current {@link Suspect}'s home country.
      */
     public SuspectsFromCountry() {
         this.label = new JLabel();
@@ -33,7 +32,8 @@ public final class SuspectsFromCountry extends Widget {
 
     @Override
     public void update() {
-        final List<Suspect> suspectsFromCountry = db.getRegistry().getSuspectsFromCountry(db.getSuspect().getCountry());
+        final List<Suspect> suspectsFromCountry =
+                db.getRegistry().getSuspectsFromCountry(db.getSuspect().getCountry());
         final String country = db.getSuspect().getCountry();
         view.setText("");
         label.setText(String.format("Suspects coming from %s", country));

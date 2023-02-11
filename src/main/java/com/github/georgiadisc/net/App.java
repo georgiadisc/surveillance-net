@@ -37,13 +37,18 @@ public class App {
         comms[5] = new PhoneCall("00496955444444", "00478484222222", 20, 10, 2022, 247);
         comms[6] = new PhoneCall("00478484222222", "00496955333333", 21, 10, 2022, 32);
 
-        comms[7] = new SMS("00496955444444", "00478484777777", 10, 10, 2022, "fancy a drink tonight?");
+        comms[7] =
+                new SMS("00496955444444", "00478484777777", 10, 10, 2022, "fancy a drink tonight?");
         comms[8] = new SMS("00496955333333", "00446999888888", 11, 10, 2022, "Nitro Bomb prepared");
-        comms[9] = new SMS("00446999888888", "00496955444444", 12, 10, 2022, "flying to Berlin tomorrow");
-        comms[10] = new SMS("00478484777777", "00446999888888", 13, 10, 2022, "No internet connection today");
-        comms[11] = new SMS("00478484777777", "00446999888888", 14, 10, 2022, "Gun Received from Rusty Knife");
+        comms[9] = new SMS("00446999888888", "00496955444444", 12, 10, 2022,
+                "flying to Berlin tomorrow");
+        comms[10] = new SMS("00478484777777", "00446999888888", 13, 10, 2022,
+                "No internet connection today");
+        comms[11] = new SMS("00478484777777", "00446999888888", 14, 10, 2022,
+                "Gun Received from Rusty Knife");
         comms[12] = new SMS("00478484777777", "00446999888888", 15, 10, 2022, "Metro Attack ready");
-        comms[13] = new SMS("00478484666666", "00446999888888", 16, 10, 2022, "Explosives downtown have been placed");
+        comms[13] = new SMS("00478484666666", "00446999888888", 16, 10, 2022,
+                "Explosives downtown have been placed");
         comms[14] = new SMS("0030210567888", "00478484222222", 22, 10, 2022, "Meet you at Oslo");
 
         Registry registry = new Registry();

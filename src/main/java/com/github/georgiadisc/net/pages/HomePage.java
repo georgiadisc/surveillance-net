@@ -10,15 +10,13 @@ public final class HomePage extends Page {
     private final Column column;
 
     /**
-     * The home page of our application, which includes a search bar for the
-     * suspects saved in the Registry.
+     * The home page of our application, which includes a search bar for the suspects saved in the
+     * Registry.
      */
     public HomePage() {
         super(300, 200);
         super.setPreferences("Find Suspect");
-        this.column = new Column(
-                new SearchSuspect(),
-                new VisualizeNetwork());
+        this.column = new Column(new SearchSuspect(), new VisualizeNetwork());
     }
 
     @Override

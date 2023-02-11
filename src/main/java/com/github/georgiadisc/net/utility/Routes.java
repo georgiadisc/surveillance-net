@@ -5,17 +5,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Router is a helper class which stores the added pages, including an instance
- * of the current page. Router handles navigation inside the application, like
- * opening and closing pages.
+ * Router is a helper class which stores the added pages, including an instance of the current page.
+ * Router handles navigation inside the application, like opening and closing pages.
  */
 public final class Routes {
 
     private static final Map<String, Page> pages = new HashMap<>();
     private static Page currPage;
 
-    private Routes() {
-    }
+    private Routes() {}
 
     /**
      * Adds the specified page to the router.

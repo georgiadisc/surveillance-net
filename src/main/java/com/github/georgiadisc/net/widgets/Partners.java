@@ -39,7 +39,8 @@ public final class Partners extends Widget {
             view.setColumns(Column.SM.getSize());
         } else {
             for (int i = 0; i < partners.size() - 1; i++) {
-                view.append(String.format("%s, %s", partners.get(i).getName(), partners.get(i).getCodeName()));
+                view.append(String.format("%s, %s", partners.get(i).getName(),
+                        partners.get(i).getCodeName()));
                 view.append("\n");
             }
             view.append(String.format("%s, %s", partners.get(partners.size() - 1).getName(),

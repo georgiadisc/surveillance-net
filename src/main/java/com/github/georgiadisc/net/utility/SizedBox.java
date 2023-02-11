@@ -4,8 +4,8 @@ import javax.swing.*;
 import java.io.Serial;
 
 /**
- * A simple focusable box component. Draws "attention" to itself allowing other
- * components, like text fields, to keep their default state.
+ * A simple focusable box component. Draws "attention" to itself allowing other components, like
+ * text fields, to keep their default state.
  */
 public final class SizedBox extends JPanel {
 

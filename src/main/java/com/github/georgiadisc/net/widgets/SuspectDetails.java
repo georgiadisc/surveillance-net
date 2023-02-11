@@ -14,8 +14,8 @@ public final class SuspectDetails extends Widget {
     private final JScrollPane pane;
 
     /**
-     * A widget showing the {@link Suspect}'s personal information, such as name,
-     * codename, and phone numbers in use.
+     * A widget showing the {@link Suspect}'s personal information, such as name, codename, and
+     * phone numbers in use.
      */
     public SuspectDetails() {
         this.name = new JTextArea();
