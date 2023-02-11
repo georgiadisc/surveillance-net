@@ -5,10 +5,10 @@ A Java Swing Application for a hypothetical surveillance network with a micro fr
 ## 📸 Screenshots
 
 - HomePage
-  ![surveillance_net_home_page](https://raw.githubusercontent.com/georgiadisc/surveillance-net/main/images/home_page.png)
+  <img src="images/home_page.png" alt="Home Page" width="400" title="Home Page">
 
 - SuspectPage
-  ![surveillance_net_suspect_page](https://raw.githubusercontent.com/georgiadisc/surveillance-net/main/images/suspect_page.png)
+  <img src="images/suspect_page.png" alt="Suspect Page" width="400" title="Suspect Page">
 
 - NetworkPage
-  ![surveillance_net_network_page](https://raw.githubusercontent.com/georgiadisc/surveillance-net/main/images/network_page.png)
+  <img src="images/network_page.png" alt="Network Page" width="400" title="Network Page">
