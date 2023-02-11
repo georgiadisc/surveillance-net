@@ -16,7 +16,9 @@ public final class HomePage extends Page {
     public HomePage() {
         super(300, 200);
         super.setPreferences("Find Suspect");
-        this.column = new Column(new SearchSuspect(), new VisualizeNetwork());
+        this.column = new Column(
+                new SearchSuspect(),
+                new VisualizeNetwork());
     }
 
     @Override

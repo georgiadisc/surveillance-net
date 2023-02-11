@@ -16,7 +16,10 @@ public final class NetworkPage extends Page {
      */
     public NetworkPage() {
         super.setPreferences("Suspects Network");
-        this.column = new Column(new GraphView(), new DiameterView(), new ReturnHome());
+        this.column = new Column(
+                new GraphView(),
+                new DiameterView(),
+                new ReturnHome());
     }
 
     @Override

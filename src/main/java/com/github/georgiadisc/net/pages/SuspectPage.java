@@ -15,8 +15,13 @@ public final class SuspectPage extends Page {
     public SuspectPage() {
         super(600, 500);
         super.setPreferences("Suspect Page");
-        this.column = new Column(new SuspectDetails(), new MaliciousMessages(), new Partners(),
-                new SuggestedPartners(), new SuspectsFromCountry(), new SuspectsFromCity(),
+        this.column = new Column(
+                new SuspectDetails(),
+                new MaliciousMessages(),
+                new Partners(),
+                new SuggestedPartners(),
+                new SuspectsFromCountry(),
+                new SuspectsFromCity(),
                 new ReturnHome());
     }
 
