@@ -3,7 +3,10 @@ package com.github.georgiadisc.net.models;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.graph.UndirectedSparseMultigraph;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Queue;
 import java.util.stream.Stream;
 
 public class Registry {
@@ -12,6 +15,13 @@ public class Registry {
     private static final List<PhoneCall> phoneCalls = new ArrayList<>();
     private final List<Suspect> suspects = new ArrayList<>();
     private final Graph<String, Integer> graph = new UndirectedSparseMultigraph<>();
+
+    /**
+     * Returns the complete list of messages and calls.
+     */
+    public static List<Communication> getAllCommunication() {
+        return Stream.concat(phoneCalls.stream(), messages.stream()).toList();
+    }
 
     /**
      * Adds a suspect to the suspect's list of possible associates. This happens after checking
@@ -57,13 +67,6 @@ public class Registry {
                 }
             }
         }
-    }
-
-    /**
-     * Returns the complete list of messages and calls.
-     */
-    public static List<Communication> getAllCommunication() {
-        return Stream.concat(phoneCalls.stream(), messages.stream()).toList();
     }
 
     /**
