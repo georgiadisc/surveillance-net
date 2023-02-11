@@ -41,7 +41,7 @@ public final class MaliciousMessages extends Widget {
         field.setColumns(Column.SM.getSize());
         view.setRows(Row.MD.getSize());
         view.setColumns(Column.MD.getSize());
-        view.setLineWrap(true);
+        view.setWrapStyleWord(true);
         view.setEditable(false);
         add(field);
         add(pane);
