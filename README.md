@@ -2,6 +2,11 @@
 
 A Java Swing Application for a hypothetical surveillance network with a micro framework inspired by Flutter Framework.
 
+## 🏛️ Architecture
+
+<img src="images/diagram_light.svg#gh-light-mode-only" alt="Diagram" title="Diagram">
+<img src="images/diagram_dark.svg#gh-dark-mode-only" alt="Diagram" title="Diagram">
+
 ## 📸 Screenshots
 
 <table>
