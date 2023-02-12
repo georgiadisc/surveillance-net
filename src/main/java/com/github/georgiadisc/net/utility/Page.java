@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * The parent class of every page. Pages extending this class get their own id and can be later
+ * The parent class of every page. Pages extending this class get their own id and can later be
  * added to the Router.
  */
 public abstract class Page {
