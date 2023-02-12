@@ -1,6 +1,6 @@
 # surveillance-net
 
-A Java Swing Application for a hypothetical surveillance network with a micro framework inspired by Flutter Framework.
+A Java Swing Application for a hypothetical surveillance network with a micro framework inspired by [Flutter](https://flutter.dev/).
 
 ## 🏛️ Architecture
 
@@ -10,7 +10,7 @@ This is where the business logic of the application lies.
 
 ### `/pages`
 
-The pages of the application, **HomePage**, **SuspectPage** and **NetworkPage**. Pages get their own id and can later be added to the Router.
+The pages of the application, **HomePage**, **SuspectPage** and **NetworkPage**. Pages get their own id and can later be added to the router.
 
 ### `/utility`
 
@@ -18,7 +18,7 @@ Utility classes like **Router** and **Database** alongside other helper componen
 
 ### `/widgets`
 
-The widgets of the application live here. Widgets are reusable blocks of code that get access to the database and the mechanism for building and updating their content. Widgets can also be embedded into other widgets or pages.
+The widgets of the application live here. Widgets are reusable blocks of code that get access to the database and the mechanism for building and updating their content. Widgets can also be embedded into other widgets or pages accordingly.
 
 ## 📸 Screenshots
 
