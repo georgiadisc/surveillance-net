@@ -1,6 +1,6 @@
 # surveillance-net
 
-A Java Swing Application for a hypothetical surveillance network with a micro framework inspired by [Flutter](https://flutter.dev/).
+Cross-platform desktop application for a hypothetical surveillance network, built using Java Swing.
 
 ## 🏛️ Architecture
 
